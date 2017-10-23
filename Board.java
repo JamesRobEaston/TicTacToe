@@ -11,8 +11,7 @@ public class Board {
 	//The node visualization of the board
 	private StackPane mainPane;
 	
-	//Creates the board and returns it (This should have been done with a
-	//constructor and getter)
+	//Constructs the Board and its visualization
 	public Board(){
 		
 		//Constructs the board and root node to hold everything
@@ -117,6 +116,7 @@ public class Board {
 		return 0;
 	}
 	
+	//returns the visualization of the board
 	public StackPane getBoard()
 	{
 		return mainPane;
